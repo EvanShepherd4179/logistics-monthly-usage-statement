@@ -1,0 +1,1 @@
+"""Monthly logistics statement service."""

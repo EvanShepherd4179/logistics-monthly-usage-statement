@@ -1,0 +1,20 @@
+{
+  "customer_name": "Northwind Cold Chain",
+  "customer_email": "chenhua@changba.com",
+  "statement_month": "2026-09",
+  "shipments": [
+    {
+      "shipment_id": "SHP-1042",
+      "events": [
+        {"kind": "picked_up", "occurred_at": "2026-09-03T08:15:00Z"},
+        {"kind": "delivered", "occurred_at": "2026-09-04T16:40:00Z"}
+      ],
+      "proof_of_delivery": [
+        {
+          "document_name": "SHP-1042-signed.pdf",
+          "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      ]
+    }
+  ]
+}
